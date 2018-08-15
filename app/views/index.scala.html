@@ -1,4 +1,4 @@
-@(timeStr: SunInfo, temperature: Double)
+@(timeStr: SunInfo, temperature: Double, requests: Int)
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -11,5 +11,6 @@
         <p>Sunrise: @timeStr.sunrise</p>
         <p>Sunset: @timeStr.sunset</p>
         <p>Temperature: @temperature</p>
+        <p>There have been: @requests requests made</p>
     </body>
 </html>
